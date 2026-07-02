@@ -1,0 +1,9 @@
+venv/
+**/venv/
+__pycache__/
+*.pyc
+data/
+*.pdf
+unp/
+pg-*.jpg
+*.docx

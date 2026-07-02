@@ -1,0 +1,553 @@
+{
+  "breast_cancer": {
+    "name": "Breast Cancer",
+    "best_model": "Logistic Regression",
+    "classes": {
+      "pos": "Malignant",
+      "neg": "Benign"
+    },
+    "features": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension"
+    ],
+    "feature_meta": {
+      "mean radius": {
+        "label": "mean radius",
+        "min": 6.981,
+        "max": 28.11,
+        "mean": 14.127291739894552
+      },
+      "mean texture": {
+        "label": "mean texture",
+        "min": 9.71,
+        "max": 39.28,
+        "mean": 19.289648506151142
+      },
+      "mean perimeter": {
+        "label": "mean perimeter",
+        "min": 43.79,
+        "max": 188.5,
+        "mean": 91.96903339191564
+      },
+      "mean area": {
+        "label": "mean area",
+        "min": 143.5,
+        "max": 2501.0,
+        "mean": 654.8891036906855
+      },
+      "mean smoothness": {
+        "label": "mean smoothness",
+        "min": 0.05263,
+        "max": 0.1634,
+        "mean": 0.0963602811950791
+      },
+      "mean compactness": {
+        "label": "mean compactness",
+        "min": 0.01938,
+        "max": 0.3454,
+        "mean": 0.10434098418277679
+      },
+      "mean concavity": {
+        "label": "mean concavity",
+        "min": 0.0,
+        "max": 0.4268,
+        "mean": 0.0887993158172232
+      },
+      "mean concave points": {
+        "label": "mean concave points",
+        "min": 0.0,
+        "max": 0.2012,
+        "mean": 0.04891914586994728
+      },
+      "mean symmetry": {
+        "label": "mean symmetry",
+        "min": 0.106,
+        "max": 0.304,
+        "mean": 0.18116186291739894
+      },
+      "mean fractal dimension": {
+        "label": "mean fractal dimension",
+        "min": 0.04996,
+        "max": 0.09744,
+        "mean": 0.06279760984182776
+      },
+      "radius error": {
+        "label": "radius error",
+        "min": 0.1115,
+        "max": 2.873,
+        "mean": 0.40517205623901575
+      },
+      "texture error": {
+        "label": "texture error",
+        "min": 0.3602,
+        "max": 4.885,
+        "mean": 1.2168534270650264
+      },
+      "perimeter error": {
+        "label": "perimeter error",
+        "min": 0.757,
+        "max": 21.98,
+        "mean": 2.8660592267135327
+      },
+      "area error": {
+        "label": "area error",
+        "min": 6.802,
+        "max": 542.2,
+        "mean": 40.337079086116
+      },
+      "smoothness error": {
+        "label": "smoothness error",
+        "min": 0.001713,
+        "max": 0.03113,
+        "mean": 0.007040978910369069
+      },
+      "compactness error": {
+        "label": "compactness error",
+        "min": 0.002252,
+        "max": 0.1354,
+        "mean": 0.025478138840070295
+      },
+      "concavity error": {
+        "label": "concavity error",
+        "min": 0.0,
+        "max": 0.396,
+        "mean": 0.03189371634446397
+      },
+      "concave points error": {
+        "label": "concave points error",
+        "min": 0.0,
+        "max": 0.05279,
+        "mean": 0.011796137082601054
+      },
+      "symmetry error": {
+        "label": "symmetry error",
+        "min": 0.007882,
+        "max": 0.07895,
+        "mean": 0.02054229876977153
+      },
+      "fractal dimension error": {
+        "label": "fractal dimension error",
+        "min": 0.0008948,
+        "max": 0.02984,
+        "mean": 0.0037949038664323374
+      },
+      "worst radius": {
+        "label": "worst radius",
+        "min": 7.93,
+        "max": 36.04,
+        "mean": 16.269189806678387
+      },
+      "worst texture": {
+        "label": "worst texture",
+        "min": 12.02,
+        "max": 49.54,
+        "mean": 25.677223198594024
+      },
+      "worst perimeter": {
+        "label": "worst perimeter",
+        "min": 50.41,
+        "max": 251.2,
+        "mean": 107.26121265377857
+      },
+      "worst area": {
+        "label": "worst area",
+        "min": 185.2,
+        "max": 4254.0,
+        "mean": 880.5831282952548
+      },
+      "worst smoothness": {
+        "label": "worst smoothness",
+        "min": 0.07117,
+        "max": 0.2226,
+        "mean": 0.13236859402460457
+      },
+      "worst compactness": {
+        "label": "worst compactness",
+        "min": 0.02729,
+        "max": 1.058,
+        "mean": 0.25426504393673116
+      },
+      "worst concavity": {
+        "label": "worst concavity",
+        "min": 0.0,
+        "max": 1.252,
+        "mean": 0.27218848330404216
+      },
+      "worst concave points": {
+        "label": "worst concave points",
+        "min": 0.0,
+        "max": 0.291,
+        "mean": 0.11460622319859401
+      },
+      "worst symmetry": {
+        "label": "worst symmetry",
+        "min": 0.1565,
+        "max": 0.6638,
+        "mean": 0.2900755711775044
+      },
+      "worst fractal dimension": {
+        "label": "worst fractal dimension",
+        "min": 0.05504,
+        "max": 0.2075,
+        "mean": 0.0839458172231986
+      }
+    },
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.9649,
+        "precision": 0.975,
+        "recall": 0.9286,
+        "f1": 0.9512,
+        "roc_auc": 0.996,
+        "cv_acc": 0.9737
+      },
+      "SVM (RBF)": {
+        "accuracy": 0.9737,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "roc_auc": 0.9947,
+        "cv_acc": 0.9754
+      },
+      "Random Forest": {
+        "accuracy": 0.9737,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "roc_auc": 0.9944,
+        "cv_acc": 0.9526
+      },
+      "XGBoost": {
+        "accuracy": 0.9737,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963,
+        "roc_auc": 0.9917,
+        "cv_acc": 0.9648
+      }
+    },
+    "best_metrics": {
+      "accuracy": 0.9649,
+      "precision": 0.975,
+      "recall": 0.9286,
+      "f1": 0.9512,
+      "roc_auc": 0.996,
+      "cv_acc": 0.9737
+    },
+    "feature_importance": {},
+    "n_samples": 569,
+    "n_positive": 212
+  },
+  "diabetes": {
+    "name": "Diabetes",
+    "best_model": "Random Forest",
+    "classes": {
+      "pos": "Diabetic",
+      "neg": "Not Diabetic"
+    },
+    "features": [
+      "Pregnancies",
+      "Glucose",
+      "BloodPressure",
+      "SkinThickness",
+      "Insulin",
+      "BMI",
+      "DiabetesPedigreeFunction",
+      "Age"
+    ],
+    "feature_meta": {
+      "Pregnancies": {
+        "label": "Number of Pregnancies",
+        "min": 0.0,
+        "max": 17.0,
+        "mean": 3.8450520833333335
+      },
+      "Glucose": {
+        "label": "Glucose (mg/dL)",
+        "min": 44.0,
+        "max": 199.0,
+        "mean": 121.65625
+      },
+      "BloodPressure": {
+        "label": "Blood Pressure (mm Hg)",
+        "min": 24.0,
+        "max": 122.0,
+        "mean": 72.38671875
+      },
+      "SkinThickness": {
+        "label": "Skin Thickness (mm)",
+        "min": 7.0,
+        "max": 99.0,
+        "mean": 29.108072916666668
+      },
+      "Insulin": {
+        "label": "Insulin (mu U/ml)",
+        "min": 14.0,
+        "max": 846.0,
+        "mean": 140.671875
+      },
+      "BMI": {
+        "label": "Body Mass Index (BMI)",
+        "min": 18.2,
+        "max": 67.1,
+        "mean": 32.45520833333333
+      },
+      "DiabetesPedigreeFunction": {
+        "label": "Diabetes Pedigree Function",
+        "min": 0.078,
+        "max": 2.42,
+        "mean": 0.47187630208333325
+      },
+      "Age": {
+        "label": "Age (years)",
+        "min": 21.0,
+        "max": 81.0,
+        "mean": 33.240885416666664
+      }
+    },
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.7078,
+        "precision": 0.6,
+        "recall": 0.5,
+        "f1": 0.5455,
+        "roc_auc": 0.813,
+        "cv_acc": 0.7734
+      },
+      "SVM (RBF)": {
+        "accuracy": 0.7403,
+        "precision": 0.6522,
+        "recall": 0.5556,
+        "f1": 0.6,
+        "roc_auc": 0.7964,
+        "cv_acc": 0.7552
+      },
+      "Random Forest": {
+        "accuracy": 0.7338,
+        "precision": 0.6444,
+        "recall": 0.537,
+        "f1": 0.5859,
+        "roc_auc": 0.817,
+        "cv_acc": 0.7617
+      },
+      "XGBoost": {
+        "accuracy": 0.7273,
+        "precision": 0.6154,
+        "recall": 0.5926,
+        "f1": 0.6038,
+        "roc_auc": 0.8115,
+        "cv_acc": 0.7369
+      }
+    },
+    "best_metrics": {
+      "accuracy": 0.7338,
+      "precision": 0.6444,
+      "recall": 0.537,
+      "f1": 0.5859,
+      "roc_auc": 0.817,
+      "cv_acc": 0.7617
+    },
+    "feature_importance": {
+      "Pregnancies": 0.079,
+      "Glucose": 0.2682,
+      "BloodPressure": 0.0842,
+      "SkinThickness": 0.071,
+      "Insulin": 0.0916,
+      "BMI": 0.16,
+      "DiabetesPedigreeFunction": 0.1242,
+      "Age": 0.1217
+    },
+    "n_samples": 768,
+    "n_positive": 268
+  },
+  "heart": {
+    "name": "Heart Disease",
+    "best_model": "Random Forest",
+    "classes": {
+      "pos": "Heart Disease",
+      "neg": "No Heart Disease"
+    },
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "feature_meta": {
+      "age": {
+        "label": "Age (years)",
+        "min": 29.0,
+        "max": 77.0,
+        "mean": 54.366336633663366
+      },
+      "sex": {
+        "label": "Sex (1=male, 0=female)",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6831683168316832
+      },
+      "cp": {
+        "label": "Chest Pain Type (0-3)",
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 0.966996699669967
+      },
+      "trestbps": {
+        "label": "Resting BP (mm Hg)",
+        "min": 94.0,
+        "max": 200.0,
+        "mean": 131.62376237623764
+      },
+      "chol": {
+        "label": "Cholesterol (mg/dL)",
+        "min": 126.0,
+        "max": 564.0,
+        "mean": 246.26402640264027
+      },
+      "fbs": {
+        "label": "Fasting Blood Sugar >120 (1/0)",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1485148514851485
+      },
+      "restecg": {
+        "label": "Resting ECG (0-2)",
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 0.528052805280528
+      },
+      "thalach": {
+        "label": "Max Heart Rate",
+        "min": 71.0,
+        "max": 202.0,
+        "mean": 149.64686468646866
+      },
+      "exang": {
+        "label": "Exercise Angina (1/0)",
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.32673267326732675
+      },
+      "oldpeak": {
+        "label": "ST Depression (oldpeak)",
+        "min": 0.0,
+        "max": 6.2,
+        "mean": 1.0396039603960396
+      },
+      "slope": {
+        "label": "ST Slope (0-2)",
+        "min": 0.0,
+        "max": 2.0,
+        "mean": 1.3993399339933994
+      },
+      "ca": {
+        "label": "Major Vessels (0-4)",
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.7293729372937293
+      },
+      "thal": {
+        "label": "Thalassemia (0-3)",
+        "min": 0.0,
+        "max": 3.0,
+        "mean": 2.3135313531353137
+      }
+    },
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.8033,
+        "precision": 0.7692,
+        "recall": 0.9091,
+        "f1": 0.8333,
+        "roc_auc": 0.869,
+        "cv_acc": 0.8383
+      },
+      "SVM (RBF)": {
+        "accuracy": 0.8197,
+        "precision": 0.775,
+        "recall": 0.9394,
+        "f1": 0.8493,
+        "roc_auc": 0.8831,
+        "cv_acc": 0.8152
+      },
+      "Random Forest": {
+        "accuracy": 0.8197,
+        "precision": 0.7619,
+        "recall": 0.9697,
+        "f1": 0.8533,
+        "roc_auc": 0.9064,
+        "cv_acc": 0.8152
+      },
+      "XGBoost": {
+        "accuracy": 0.8033,
+        "precision": 0.7692,
+        "recall": 0.9091,
+        "f1": 0.8333,
+        "roc_auc": 0.8636,
+        "cv_acc": 0.8022
+      }
+    },
+    "best_metrics": {
+      "accuracy": 0.8197,
+      "precision": 0.7619,
+      "recall": 0.9697,
+      "f1": 0.8533,
+      "roc_auc": 0.9064,
+      "cv_acc": 0.8152
+    },
+    "feature_importance": {
+      "age": 0.0796,
+      "sex": 0.0283,
+      "cp": 0.1524,
+      "trestbps": 0.0741,
+      "chol": 0.083,
+      "fbs": 0.0099,
+      "restecg": 0.0231,
+      "thalach": 0.1148,
+      "exang": 0.0679,
+      "oldpeak": 0.1074,
+      "slope": 0.0578,
+      "ca": 0.0897,
+      "thal": 0.1119
+    },
+    "n_samples": 303,
+    "n_positive": 165
+  }
+}
