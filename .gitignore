@@ -4,3 +4,4 @@
 # Ignore all virtual environment folders (root and subfolders)
 venv/
 **/venv/
+.gitignore
